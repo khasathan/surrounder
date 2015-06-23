@@ -1,0 +1,20 @@
+{
+  "name": "ibg-backend-test",
+  "version": "1.0.0",
+  "description": "IBG back-end test",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "keywords": [
+    "ibg"
+  ],
+  "author": "Korkeat W. <khasathan@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
