@@ -1,8 +1,8 @@
 {
-  "name": "ibg-backend-test",
+  "name": "surrounder",
   "version": "1.0.0",
-  "description": "IBG back-end test",
-  "main": "index.js",
+  "description": "Surrounder is some lib for someone who use to surround some text with some keyword.",
+  "private": "true",
   "directories": {
     "test": "test"
   },
@@ -10,10 +10,11 @@
     "test": "./node_modules/mocha/bin/mocha test"
   },
   "keywords": [
-    "ibg"
+    "text",
+    "tagging"
   ],
   "author": "Korkeat W. <khasathan@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "mocha": "^2.2.5"
   }
